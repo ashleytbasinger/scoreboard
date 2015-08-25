@@ -1,0 +1,72 @@
+body {
+  background-color: #E066FF;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#container {
+  background-color: #E066FF;
+  padding: 2%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#scoreboard {
+  background-color: #E066FF;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+  margin: 1% auto;
+  padding: 1%;
+  width: 53%;
+}
+
+#rankings {
+  list-style: none;
+}
+
+#add, #clear {
+  background-color: #E066FF;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+  font-size: 16px;
+  &:hover {
+    background-color: #6A37B6;
+    color: #fff;
+  }
+}
+
+input {
+  background-color: #E066FF;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif; 
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+  opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+  font-family: 'Century Gothic', Helvetica, sans-serif;
+}
